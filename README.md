@@ -1,4 +1,4 @@
-## Adds to_sql to arel table and attribute.
+## Adds `to_sql` to arel table and attribute.
 
 [![Gem Version](https://badge.fury.io/rb/arel-to-sql.svg)](https://badge.fury.io/rb/arel-to-sql)
 [![Build Status](https://travis-ci.org/yivo/arel-to-sql.svg?branch=master)](https://travis-ci.org/yivo/arel-to-sql)
@@ -11,7 +11,7 @@
 table = Arel::Table.new(:users)
 table.to_sql # => `users`
 table[:name].to_sql # => `users`.`name`
-```
+````
 
 ## Usage
 **Before**
